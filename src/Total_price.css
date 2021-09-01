@@ -1,9 +1,7 @@
-
-
-.item {
+.price {
     display: flex;
     flex-direction: row;
-    padding-top: 20p;
+    padding-bottom: 20px;
 }
 
 .item-left-content {    
@@ -11,6 +9,7 @@
     flex-direction: row;
     width: 85%;
 }
+
 img {
     width: 130px;
     height: 130px;
@@ -21,15 +20,11 @@ img {
     padding: 20px;
 }
 
-.item-details h4, p {
-    text-align: left;
-}
-
-.item-price {
+.subtotal {
     width: 15%;
-    padding: 20px;
+    padding: 0 40px;
 }
 
-.item-price p {
+.subtotal p {
     text-align: center;
 }

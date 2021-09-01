@@ -1,3 +1,5 @@
+import './Total_price.css';
+
 function TotalPrice(props) {
     const itemsData = props.itemsData;
   
@@ -9,8 +11,15 @@ function TotalPrice(props) {
     }
 
     return (
-      <div>
-        {totalPrice}
+      <div class="price">
+        <div class="item-left-content">
+            <div class="item-details">
+            </div>
+        </div>
+        <div class="subtotal">
+            <h4>Subtotal</h4>
+            <p>${totalPrice}</p>
+        </div>
       </div>
     );
   }

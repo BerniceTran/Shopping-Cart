@@ -11,7 +11,7 @@ function Item(prop) {
             </div>
         </div>
         <div class="item-price">
-            <p>{prop.price}</p>
+            <p>${prop.price}</p>
         </div>
     </div>
   );
