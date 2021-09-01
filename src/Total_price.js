@@ -1,22 +1,16 @@
-//import './itemsData.js'
-
 function TotalPrice(props) {
     const itemsData = props.itemsData;
   
-    const itemPrice = [];
+    let totalPrice = 0;
   
     for(let i = 0; i < itemsData.length; i++) {
       const item = itemsData[i];
-  
-      itemPrice.push(
-        <Item title={Item.title} message={Item.message} />
-      )
+      totalPrice += item.quantity * item.price;
     }
-    <TotalPrice item={itemData} />
 
     return (
       <div>
-        {itemPrice * quantity}
+        {totalPrice}
       </div>
     );
   }
