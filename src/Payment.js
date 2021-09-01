@@ -1,8 +1,18 @@
 import './Payment.css';
 function Payment(props) {
     return (
+      
       <div class="payment">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <h2>Payment</h2>
+
+            <label for="fname">Accepted Cards</label>
+            <div class="icon-container">
+              <i class="fa fa-cc-visa" style={{color:"navy"}}></i>
+              <i class="fa fa-cc-amex" style={{color:"blue"}}></i>
+              <i class="fa fa-cc-mastercard" style={{color:"red"}}></i>
+              <i class="fa fa-cc-discover" style={{color:"orange"}}></i>
+            </div>
             
             <label for="cname">Name on Card</label>
             <input type="text" id="cname" name="cardname" placeholder="John More Doe"></input>
