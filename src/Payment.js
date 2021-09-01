@@ -7,10 +7,10 @@ function Payment(props) {
 
             <label for="fname">Accepted Cards</label>
             <div class="icon-container">
-              <i class="fa fa-cc-visa" style={{color:"navy"}}></i>
-              <i class="fa fa-cc-amex" style={{color:"blue"}}></i>
-              <i class="fa fa-cc-mastercard" style={{color:"red"}}></i>
-              <i class="fa fa-cc-discover" style={{color:"orange"}}></i>
+              <i class="fa fa-cc-visa fa-2x" style={{color:"navy"}}></i>
+              <i class="fa fa-cc-amex fa-2x" style={{color:"blue"}}></i>
+              <i class="fa fa-cc-mastercard fa-2x" style={{color:"red"}}></i>
+              <i class="fa fa-cc-discover fa-2x" style={{color:"orange"}}></i>
             </div>
             
             <label for="cname">Name on Card</label>
