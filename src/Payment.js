@@ -1,7 +1,6 @@
 import './Payment.css';
 function Payment(props) {
-    return (
-      
+    return ( 
       <div class="payment">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
             <h2>Payment</h2>

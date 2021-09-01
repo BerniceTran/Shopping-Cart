@@ -17,7 +17,7 @@ function TotalPrice(props) {
             </div>
         </div>
         <div class="subtotal">
-            <h4>Subtotal</h4>
+            <h3>Subtotal</h3>
             <p>${totalPrice}</p>
         </div>
       </div>
