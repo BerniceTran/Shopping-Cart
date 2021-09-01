@@ -1,4 +1,5 @@
 import './Payment.css';
+
 function Payment(props) {
     return ( 
       <div class="payment">

@@ -13,7 +13,7 @@ function App(props) {
       <div class="shopping-cart">
         <ItemList itemsData={props.itemsData}/>
         <TotalPrice itemsData={props.itemsData}/>
-        <Payment />     
+        <Payment />
       </div>
     </div>
   );
