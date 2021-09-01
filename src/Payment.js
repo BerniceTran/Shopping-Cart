@@ -1,8 +1,8 @@
 import './Payment.css';
 function Payment(props) {
     return (
-      <div class="col-50">
-            <h3>Payment</h3>
+      <div class="payment">
+            <h2>Payment</h2>
             
             <label for="cname">Name on Card</label>
             <input type="text" id="cname" name="cardname" placeholder="John More Doe"></input>

@@ -3,11 +3,11 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 
-import itemData from "./ItemsData";
+import {itemsData} from './ItemsData';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App itemData={itemData} />
+    <App itemsData={itemsData} />
   </React.StrictMode>,
   document.getElementById("root")
 );

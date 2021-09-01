@@ -1,26 +1,20 @@
 import Item from "./Item";
 import './ItemList.css';
 
-function ItemList(props) {
-  const itemData = props.itemData;
+function ItemList(prop) {
+  const itemsData = prop.itemsData;
+  const itemsElements = [];
 
-  const itemElements = [];
-
-  for (let i = 0; i < itemData.length; i++) {
-    const item = itemData[i];
-
-    itemElements.push(<Item name={item.name} quantity={item.quantity} price={item.price} />);
+  for (let i = 0; i < itemsData.length; i++) {
+    const item = itemsData[i];
+    itemsElements.push(<Item url={item.url} image={item.image} name={item.name} quantity={item.quantity} price={item.price} />);
   }
 
   return (
-    // <table>
-    //   <tr>
-    //     <th>Name</th>
-    //     <th>Quantity</th>
-    //     <th>Unit Price</th>
-    //   </tr>
-      <div>{itemElements}</div>
-    //</table>
+    <div class="item-list">
+      <h2 id="item-list-title">Shopping Cart</h2>
+      {itemsElements}
+    </div>
   );
 }
 

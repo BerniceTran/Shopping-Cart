@@ -1,8 +1,13 @@
-table {
-    margin: 0 auto;
-    font-size:
+.item-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* background-color: white; */
+    /* border: 1px solid; */
 }
-td, th {
-    border: 1px solid black;
-    width: 10em;
+
+#item-list-title {
+    text-align: left;
 }
+
+
